@@ -50,53 +50,129 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 100%;
     height: 90px;
-    padding: 10px 20px;
+    padding: 16px;
     position: fixed;
     z-index: 100;
     top: 0;
     left: 0;
-    box-shadow: 3px 3px 8px #b4b4b4;
+    box-shadow: 3px 3px 8px #585858;
     background-color: #fbfbfb;
-    color: #0f0f0f;
-   
+    
+      
 }
  
-img {
+.logo  {
+    width: 50%;
+    max-width: 50px;
+    
+}
+
+.logo img{
     max-width: 100%;
-
-}
-
-#logo  {
-    display: flex;
-    max-height: 100px;
-    width: 30px;
-    height: auto;    
-}
-
-#encabezado{
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 100px;
-
-    
-    
-
-}
-
-#foto {
-    display: block;
-    width: 400px;
     height: auto;
-    border-radius 50%;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-   
-
 
 }
+#encabezado {
+    display: flex;
+    justify-content: space-between;    
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 80px;
+    
+}
+
+nav li:first-child {
+    margin-right: 50px;
+    
+  }
+#encabezado1 {
+    
+    display: inline-block;
+     
+}
+
+#encabezado2 {
+    padding: 16px;
+    display: inline-block;
+     
+}    
+
+.imagen-circular {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    padding: 40px;
+    margin-right: 50px;
+  
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    font-size:18px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin: 20px 20px ;
+    text-align: center;
+
+}
+
+#boton {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    background-color: #af599e;
+    color:  #fbfbfb;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;    
+    margin-left: 110px;
+}
+
+h2{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.contacto{
+    min-height: 50vh;
+    width: 80%;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: rgba(175, 89, 158, 0.3);
+}
+
+.iconos {
+    font-size: 60px;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 30%;
+    padding: 10px;
+      
+ }
+
+ footer{
+    background-color: #af599e;
+    color:  #fbfbfb;
+    height: 90px;
+ }
+
+ #pie {
+    font-size: 18px;
+    padding: 30px;
+ }
