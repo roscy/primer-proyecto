@@ -10,7 +10,8 @@
 */
 
 /* Reset */
-* { box-sizing: border-box;
+* { 
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     /* Para que el scrolleo en la one page sea suave */
@@ -31,10 +32,16 @@ a {
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
 
 body {
     font-family: 'Lato', sans-serif;
     line-height: 1.2;
+    font-size: 18px;
     color: #0f0f0f;
     background-color: #fbfbfb;
     
@@ -42,10 +49,8 @@ body {
 
 header {
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-
     width: 100%;
     height: 90px;
     padding: 10px 20px;
@@ -58,7 +63,40 @@ header {
     color: #0f0f0f;
    
 }
+ 
+img {
+    max-width: 100%;
+
+}
 
 #logo  {
-    max-height: 90px;
-    }
+    display: flex;
+    max-height: 100px;
+    width: 30px;
+    height: auto;    
+}
+
+#encabezado{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+
+    
+    
+
+}
+
+#foto {
+    display: block;
+    width: 400px;
+    height: auto;
+    border-radius 50%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
